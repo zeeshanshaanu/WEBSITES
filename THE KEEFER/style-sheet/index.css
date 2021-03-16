@@ -1,0 +1,500 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	border-left: 15px solid silver;
+	border-right: 15px solid silver;
+}							/* FOR LOGO + PHONE NUMBER*/
+.header
+{
+ display: flex;
+ justify-content: space-between;
+}
+.calls
+{
+	padding-right: 55px;
+	padding-top: 21px;
+	font-family: 'Roboto', sans-serif;
+}
+.calls hr
+{
+	height: 5px;
+	background-color: gray;
+	width: 97%;
+}
+p
+{
+	color: gray;
+	margin-right: 13px;
+	font-family: 'Roboto', sans-serif;
+}
+.office
+{
+	color: #8e1f1f;
+	font-size: 32px;
+	/*border-bottom: px solid gray;*/
+}
+.number
+{
+	font-size: 44px;
+}
+.telephone
+{
+	font-size: 24px;
+}
+							/*------------- FOR HEADER AND LOGO------------------*/
+.navbar
+{
+	background: #8e1f1f;
+	font-family: 'Roboto', sans-serif;
+}
+.active
+{
+	background: #B9B9B9;
+	padding: 15px;
+	font-size: 20px;
+}
+.navbar ul li
+{
+	list-style-type: none;
+	padding: 15px;
+	display:inline-block;
+	color:white;
+	font-size:20px;
+}
+li:Hover
+{
+	background-color: #D8DBDF;
+}
+.navbar ul
+{
+	padding-left: 39%;
+}
+a
+{
+	color: white;
+	text-decoration: none !important;
+}
+							/*------------30 YEAR AND LOGIN-FORM-------------*/
+.container-two
+{
+	display: flex;
+	justify-content: space-around;
+	margin: 30px 20px 0px 20px;
+}
+.pic-form
+{
+	/*box-shadow: 0 3px 3px 2px silver;*/
+}
+.QUESTIONS
+{
+	background-repeat: no-repeat !important;
+	background-position: center;
+	background-attachment: cover;
+	background-size: 100%;
+	margin-left: 30px;
+	/*box-shadow: 0 3px 3px 2px silver;*/
+}
+.span1
+{
+	font-size:40px;
+}
+.heading
+{
+	background: #8e1f1f;
+	display: inline-block;
+	padding: 10px 40px;
+	font-size:30px;
+	color: white;
+	position: absolute;
+	font-family: 'Roboto', sans-serif;
+}
+.heading2 .span2
+{
+font-size: 20px;
+}
+.another
+{
+	padding-left: 300px;
+	padding-top: 6px;
+	display: block;
+	position: relative;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+.information
+{
+	padding-left: 40px;
+	margin-right: 55px;
+	font-size: 20px;
+	color: black;
+}
+								/*-------------LOGIN-FORM------------*/
+.login-form
+{
+	padding-left: 40px;
+	padding-top: 10px;
+	display:flex;
+	font-family: 'Roboto', sans-serif;
+}
+.form-info
+{
+	margin-bottom: 10px;
+	padding: 7px;
+	border:none!important;
+}
+.confidential
+{
+	padding-left: 30px;
+}
+.confidential img
+{
+	padding-top: 32px;
+	width: 235px;
+	transform:rotate(15deg);
+}
+.text-area
+{
+	width: 505px;
+    height: 70px;
+    border: none!important;
+    margin-left: 7%;
+}
+::placeholder
+{
+	font-size: 15px;
+	padding: 10px;
+	font-weight: bold!important;
+}
+.privacy
+{
+	display: flex;
+	margin-left: 4%;
+	align-items: center;
+}
+.para
+{
+	font-size: 20px;
+	padding-left: 40px;
+}
+.tell-us
+{
+	padding-top: 5px;
+}
+.tell-us button
+{
+	padding: 10px 15px;
+	background: #8e1f1f;
+	color: white;
+	border:none!important;
+	font-size: 20px;
+	/*box-shadow: 5px 5px #8e1f1f;*/
+}
+									/* -------- FOR CHARGEED--------*/
+.BLOG1
+{
+	display: flex;
+	margin-top:3%;
+	margin-bottom: 2%;
+}
+.box
+{
+	padding-left: 40px;
+	width: 30%;
+}
+.box1
+{
+	display: flex;
+}
+.free
+{
+	margin-top: 3%;
+	margin-bottom: 20px;
+	color: #8e1f1f;
+	font-weight:bolder !important;
+}
+				/*------------BOX----------*/
+.charge
+{
+	font-size: 30px;
+}
+.being
+{
+	margin-bottom: 15px;
+}
+.paragraph
+{
+	font-size: 17px;
+    width: 55%;
+}
+.tell hr
+{
+	margin-top: 40px;
+    width: 70%;
+}
+.image1 img
+{
+	width: 120px;
+    padding-left: 20px;
+    margin-top: -15px;
+}
+.button2
+{
+	width: 140px;
+    padding: 10px 0px;
+    background-color: #8e1f1f;
+    color: white;
+    border:none!important;
+}
+.tell
+{
+	padding-left: 105px;
+}
+.tell img
+{
+	margin-left: 5px;
+	margin-top: 2px;
+}
+				/*----------------BLOG 2---------*/
+.BLOG2
+{
+	width: 40%;
+	border-left: 1px solid silver;
+	border-right: 1px solid silver;
+}
+.law-blog
+{
+	display: flex;
+	margin-bottom: 4%;
+}
+.heading2
+{
+	padding-left: 7%;
+}
+.heading3
+{
+	padding-left: 7%;
+	padding-top: 3%;
+}
+.heading2 h1
+{
+font-size: 30px;
+}
+.heading2 p
+{
+font-size: 20px;
+}
+.computer-pic
+{
+	margin-left: 60px;
+	margin-top: 5px;
+}
+.law-blog hr
+{
+	margin-top:30px;
+	width:105%;
+}
+.BLOG3
+{
+	width: 30%;
+}										/*-------BLOG 3-------*/
+.heading3 h1
+{
+font-size: 30px;
+}
+.heading3 hr
+{
+	width: 85%;
+}
+.computer-pic1
+{
+	margin-top: 3%;
+	margin-left: 4%;
+}
+.pic-heading
+ {
+ 	display: flex;
+ 	padding-left: 7%;
+ }
+.q-image img
+{
+	width: 150px;
+    margin-top: 10%;
+}
+.nat-college img
+{
+	width: 125px;
+    margin-top: 10%;
+    margin-left: 15%;
+}
+.heading4
+{
+    font-size: 24px;
+    padding-left: 10%;
+    width: 62%;
+    margin-top:3%; 
+}
+.paragraph3
+{
+	font-size: 16px;
+    padding-left: 10%;
+    width: 77%;
+    padding-top: 3%;
+}
+.button3
+{
+	width: 140px;
+    padding: 10px 0px;
+    background-color: #8e1f1f;
+    color: white;
+    border:none!important;
+    margin-left: 40%;
+}
+.BLOG3 hr
+{
+    margin-top: 3%;
+    width: 45%;
+    margin-left: 40%;
+}
+						/*-----------FOOTER-IMAGE---------------*/
+.footer-img img
+{
+	width: 100%;
+}
+					/*---------PRACTICE AREAS----(BLOG 4)--------*/
+.container-3
+{
+	display: flex;
+	margin-top: 2%;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+.PRACTICE-AREA
+{
+	width: 30%;
+}
+.practice-area
+{
+	width: 85%;
+	background-color: gray;
+	border-left: 10px solid  #8e1f1f;
+	/*box-shadow: 0px 0px 5px 0px;*/
+}
+.area
+{
+	margin-bottom: 4%;
+}
+h2
+{
+	font-size: 30px;
+}
+.DUI
+{
+	font-size: 25px;
+    padding-top: 10px;
+    padding-left: 13px;
+    color: white;
+}				
+.learn
+{
+	padding-left: 52%;
+    color: white;
+    font-size: 16px;
+    padding-bottom: 13px;
+    padding-top: 2%;
+}
+.hr-shadow
+{
+	width: 87%;
+}
+.practice-area img
+{
+	width: 12px;
+	margin-left: 4%;
+}
+.ABOUT-US
+{
+	width: 50%;
+}
+.ABOUT-US h1
+{
+	font-size: 30px;
+}
+.para-5
+{
+	width: 88%;
+    line-height: 1.5;
+    margin-top: 2%;
+}
+/**/
+.three
+{
+	width: 20%;
+}
+.heading5 h1
+{
+	margin-bottom:5%;
+	color: gray;
+}
+.heading5 p 
+{
+	margin-bottom:5%;
+}
+.heading5 button
+{
+	padding: 5px 5px;
+    background: #8e1f1f;
+    color: white;
+    border: none!important;
+    font-size: 12px;
+    margin-bottom: 12%;
+    float: right;
+    margin-right: 15%;
+}
+.heading5 h1
+{
+	font-size: 30px;
+}
+.heading5 hr
+{
+	width: 100%;
+}
+.rating
+{
+    width: 180px;
+    margin-left: 13%;
+}
+.national
+{
+	width: 140px;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.follow
+{
+	font-size: 25px;
+	text-align: center;
+	align-items: center;
+}
+.follow-hr
+{
+	width: 75%;
+    margin-left: 12%;
+}
+.for-linked
+{
+	float: right;
+	margin-right: 11%;
+}
+.link
+{
+	margin: 7px;
+	width: 15%;
+}
+
+
+	
